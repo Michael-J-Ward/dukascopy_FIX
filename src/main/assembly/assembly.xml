@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--
+  - Author: Otmane El Rhazi
+  - Since: 1.0.0
+  - Version: $Id: assembly.xml 16154 2014-07-09 16:34:05Z elrhazi $
+  - $License$
+  -->
+
+<assembly>
+  <id>assembly</id>
+  <includeBaseDirectory>false</includeBaseDirectory>
+  <dependencySets>
+    <dependencySet>
+      <outputDirectory>lib</outputDirectory>
+    </dependencySet>
+  </dependencySets>
+  <fileSets>
+    <fileSet>
+      <directory>src/main/sample_data/conf</directory>
+      <outputDirectory>conf</outputDirectory>
+    </fileSet>
+  </fileSets>
+</assembly>
